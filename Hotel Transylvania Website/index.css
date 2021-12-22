@@ -1,0 +1,225 @@
+.first {
+  background-color: #03211c;
+  padding: 3% 15% 9%;
+}
+
+.img2 {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 155px;
+}
+
+.img1 {
+  height: 700px;
+  width: 1000px;
+  margin-top: 2.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+
+.img3 {
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 390px;
+  z-index: 0;
+}
+
+/* .hotel-pics {
+
+} */
+
+.facility {
+  padding: 50px 50px;
+}
+
+.sub {
+  color: white;
+}
+
+.pricing {
+  background-image: url("https://modworkshop.net/mydownloads/previews/preview_28826_1471725210_4a6af48d0f347813e49dd1af4e385d57.jpg");
+  padding: 9% 8%;
+  position: relative;
+}
+
+.pricing-img {
+  height: 190px;
+  width: 100%;
+  z-index: 3;
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+}
+
+.heading-carousel {
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  margin-bottom: 40px;
+}
+
+.pricing .col {
+  padding: 4% 5%;
+}
+
+.suite {
+  width: 100%;
+}
+
+.description {
+  background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(255, 255, 255, 0));
+  /* opacity: 70%; */
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#features {
+  background-color: #03211c;
+  padding: 9% 8%;
+}
+
+.card {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Amiri', serif;
+  font-weight: bolder;
+}
+
+.facilities {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.coat {
+  text-align: center;
+  color: white;
+}
+
+.bat1 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.bat2 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.bat3 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+.bat4 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  transform: rotate(45deg);
+}
+
+.veins1 {
+  position: absolute;
+  transform: rotate(30deg);
+  left: 70px;
+  top: 230px;
+  z-index: 1;
+  opacity: 25%;
+}
+
+.veins2 {
+  position: absolute;
+  transform: rotate(30deg);
+  left: 505px;
+  top: 230px;
+  z-index: 1;
+  opacity: 25%;
+}
+
+.veins3 {
+  position: absolute;
+  transform: rotate(30deg);
+  right: 110px;
+  top: 230px;
+  z-index: 1;
+  opacity: 25%;
+}
+
+.room {
+  background-color: #65350F;
+  border-color: #65350F;
+}
+
+.room:hover {
+  background-color: #481F01;
+  border-color: brown;
+}
+
+.card-body {
+  z-index: 2;
+}
+
+.white-section {
+  background-image: url("https://modworkshop.net/mydownloads/previews/preview_28826_1471725210_4a6af48d0f347813e49dd1af4e385d57.jpg");
+  padding: 6% 7% 5%;
+  position: relative;
+}
+
+.coat h3 {
+  color: #fc5656;
+}
+
+.pictures {
+  border: 2px inset black;
+  border-radius: 25%;
+}
+
+.carousel-indicators {
+  margin-bottom: 5px;
+}
+
+.navbar-brand {
+  font-family: 'Bree Serif', serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Amiri', serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.nav-item {
+  margin: 0 11px;
+}

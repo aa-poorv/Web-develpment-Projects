@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="preconnect" href="https://static.uengage.in">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="preconnect" href="https://www.facebook.com">
+
+  <!-- Facebook Pixel Code -->
+  <script src="https://connect.facebook.net/signals/config/969395860514851?v=2.9.48&amp;r=stable" async=""></script>
+  <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '969395860514851');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=969395860514851&ev=PageView&noscript=1" alt="facebook pixel" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+
+
+  <meta charset="UTF-8">
+  <meta content="width=device-width,user-scalable=0" name="viewport">
+  <link rel="icon" href="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg" type="image/jpg" sizes="16x16">
+  <meta name="author" content="Uengage">
+  <meta name="theme-color" content="#000">
+  <link rel="shortcut icon" href="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg">
+  <link rel="icon" href="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg">
+  <link rel="icon" sizes="192x192" href="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg">
+  <link rel="apple-touch-icon" sizes="192x192" href="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg">
+  <link rel="shortcut icon" href="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg" type="image/x-icon">
+  <title>SVS Food - Online Ordering</title>
+  <meta name="description" content="Order Online from Your Favorite SVS Food  - Powered By Uengage">
+  <link rel="canonical" href="https://svsfood.com/">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="robots" content="all">
+
+
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SVS Food - Online Ordering">
+  <meta property="og:description" content="Order Online from Your Favorite SVS Food  - Powered By Uengage">
+  <meta property="og:url" content="https://svsfood.com/">
+  <meta property="og:image" content="https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg">
+  <meta property="og:image:alt" content="SVS Food - Online Ordering">
+
+  <link rel="stylesheet" type="text/css" href="https://svsfood.com/assets/wla_new/css/bootstrap.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="https://svsfood.com/assets/wla_new/css/line-awesome.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/assets/wla_new/css/slick.css" media="all">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CYanone+Kaffeesatz:200,300,400,700">
+  <link rel="stylesheet" type="text/css" href="https://svsfood.com/assets/wla_new/css/style_wla_20210924.css" media="all">
+  <style>
+    body {
+      font-size: 14px !important;
+    }
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 90px;
+      font-weight: 600;
+      right: 19px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background: linear-gradient(to bottom right, var(--main-bg-color) 0%, #ffffff 100%);
+      color: #fff;
+      cursor: pointer;
+      padding: 0.5em;
+      padding-left: 0.5em !important;
+      border-radius: 100% !important;
+      width: 48px;
+      height: 48px;
+    }
+
+    :root {
+      --main-bg-color: #000;
+      --sec-bg-color: ;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-offset="70" style="background: #fff !important;">
+  <div class="spinner-border text-success spinner" role="status" style="display:none">
+    <span class="sr-only">Loading...</span>
+  </div>
+
+  <div>
+
+    <div class="modal fade show" id="loginModal" tabindex="-1" aria-labelledby="exampleModalCenterTitle" style="padding-right: 7px;" aria-modal="true" role="dialog">
+      <div class="modal-dialog" role="document" style="margin: auto !important;border: none;">
+        <div class="modal-content" style="background:#fff;">
+          <div class="modal-header" style="background:#000 !important;color:#fff !important;">
+            <div class="logo">
+              <img src="https://www.uengage.in/images/addo/logos/logo-6442-1629272413.jpeg" style="margin:auto;width:110px;height: auto;" width="210px" height="79px" alt="SVS Food">
+              <!--<img src="assets/wla_new/img/lapinoz.png">-->
+            </div>
+
+            <button type="button" class="close m-0 p-0" data-dismiss="modal" aria-label="Close" id="closeLoginModal">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="alert alert-danger" id="danger-alert-login" role="alert" style=" display:none;   bottom: auto;top: 0;">
+            <span id="errorMessageLogin"></span>
+          </div>
+          <div class="modal-body">
+            <!-- <form > -->
+
+
+
+            <span class="modal-title" id="exampleModalCenterTitle">Login To Continue</span>
+            <label for="mobileNo" class="label-p">Mobile Number</label>
+            <input type="tel" class="form-control" id="mobileNo" placeholder="10 Digit Mobile No">
+            <button class="btn btn-primary btn-style" style="background:var(--main-bg-color);margin-top: 1em !important;    border: 0px;color:#fff;" onclick="sendOTP(6442);" id="sendOTP">Validate</button>
+            <button class="btn btn-primary btn-style" style="background: #0099ff !important;
+      border: 0px;
+      color: rgb(255, 255, 255);
+      display: none;
+      margin-top: 1em !important;
+      text-transform: inherit;" onclick="truecallerLogin(6442);" id="truecallerBTN">Continue with<img style="display:inline;width:100px" src="https://svsfood.com/assets/wla_new/img/TrueCaller_Logo_new.png" alt="truecaller"></button>
+            <input type="tel" class="form-control" id="OTP" placeholder="Type OTP Here" size="6" style="display:none;margin-top:1em">
+            <button class="btn btn-primary btn-style" style="background:var(--main-bg-color);margin-top: 1em !important;display:none;    border: 0px;color:#fff;" onclick="validateOTP(6442);" id="validateOTP">Verify</button>
+            <button class="btn btn-style mr-2" style="border-radius: 5px !important;border: 1px solid var(--main-bg-color);
+   color: var(--main-bg-color);margin-top: 1em !important;display:none" onclick="resendOTP(6442);" id="resendOTP">Resend OTP</button>
+
+
+
+            <!-- </form> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HTML -->
+
+
+    <div class="alert alert-success" id="success-alert-truecaller" style="display:none;position: fixed;
+    bottom: 0;
+    z-index: 1111;
+    WIDTH: 100%;font-size: 1.25em;height: 3.5em;margin-bottom: 0em;">
+      <button type="button" class="close" data-dismiss="alert">x</button>
+      <strong>HURRAY!</strong> You are now LoggedIn!
+    </div>
+
+
+    <div class="paytmConsentModal modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Consent</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Login and Consent is mandatory to proceed</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="tryPaytmLogin();">Proceed</button>
+            <button type="button" class="btn btn-secondary" onclick="popoutPaytm();">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="updateProfileModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Update Profile</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row m-0">
+              <div class="col-12">
+                <label> Name </label>
+                <input type="text" class="form-control" placeholder="Name" id="EUpdateName">
+              </div>
+              <div class="col-12">
+                <label> Password </label>
+                <input type="password" class="form-control" placeholder="Password" id="EUpdatePassword">
+              </div>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="updateProfileEmail(6442);">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="truecallerModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document" style="bottom:0;position:absolute;margin: auto;width: 100%;">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+              <div class="spinner-border" style="width: 10rem;height: 10rem;" role="status">
+                <span class="sr-only">Fetch Details...</span>
+              </div>
+              <div class="row">
+                <strong>Verifying mobile number</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="paytmConsentModal modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Consent</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Login and Consent is mandatory to proceed</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="tryPaytmLogin();">Proceed</button>
+            <button type="button" class="btn btn-secondary" onclick="popoutPaytm();">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top main-navigation" id="site-navigation" aria-label="Primary Navigation" style="background:#000 !important;color:#fff !important;">
+        <div class="container" style="
+               min-height: 4.5em;">
+          <a href="https://svsfood.com/" class="custom-logo-link" rel="home">
+            <img src="https://www.uengage.in/images/addo/logos/logo-6442-1629272413.jpeg" width="150" height="63" alt="Logo">
+          </a>
+
+
+          <button class="navbar-toggler wrapper-menu p-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line-menu half start"></span>
+            <span class="line-menu"></span>
+            <span class="line-menu half end"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto nav-menu" aria-expanded="false">
+              <li class="nav-item active">
+                <a class="nav-link page-scroll" style="background:#000 !important;color:#fff !important;" href="https://svsfood.com/">
+                  Home</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link page-scroll" style="background:#000 !important;color:#fff !important;" href="https://svsfood.com/promo-codes">
+                  Promo Codes</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <ul class="navbar-nav top-icon ml-auto">
+
+            <li class="nav-item " id="welLgBTN" style="display: none;">
+              <a class="nav-link" href="/past-order" style="background:#000 !important;color:#fff !important;"><i class="la la-user"></i></a>
+            </li>
+            <li class="nav-item" id="lgBtn">
+              <a class="nav-link" onclick="openLogin();" style="background:#000 !important;color:#fff !important;"><i class="la la-power-off"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="las la-angle-up" aria-hidden="true" style=" font-size: 2em;"></i>
+      </button>
+
+
+    </header>
+
+
+
+
+
+    <style>
+      .spinner {
+        display: block;
+        position: fixed;
+        z-index: 1031;
+        /* High z-index so it is on top of the page */
+        top: 50%;
+        right: 50%;
+        /* or: left: 50%; */
+        margin-top: -..px;
+        /* half of the elements height */
+        margin-right: -..px;
+        /* half of the elements widht */
+        color: var(--main-bg-color) !important;
+        width: 4em;
+        height: 4em;
+      }
+    </style>
+
+
+    <link href="https://svsfood.com/assets/wla_new/css/wla_home_25.css" rel="stylesheet">
+    <div id="content" class="site-content" tabindex="-1">
+      <div class="">
+        <div id="primary" class="content-area" style="padding-top: 6em;">
+          <main id="main" class="site-main">
+            <section class="home-v1-slider">
+              <div class="banner-slide slick-initialized slick-slider">
+                <div aria-live="polite" class="slick-list draggable">
+                  <div class="slick-track" role="listbox" style="opacity: 1; width: 1306px; transform: translate3d(0px, 0px, 0px);"><a class="slick-slide slick-current slick-active" href="https://uen.io/svsfood" data-slick-index="0"
+                      aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 653px; display: inline-block; margin-right: 0;"> <img src="https://static.uengage.in/uploads/6442/image-253938-1629272653.jpeg" style="margin:.3em;border-radius:5px"></a><a
+                      class="slick-slide slick-active" href="https://uen.io/svsfood" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 653px; display: inline-block; margin-right: 0;"> <img
+                        src="https://static.uengage.in/uploads/6442/image-276547-1627130226.jpeg" style="margin:.3em;border-radius:5px"></a></div>
+                </div>
+              </div>
+            </section>
+            <section class="wla_home_about_us" style="    text-align: center;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1 class="wla_section_heading"><span>Discover Our Story</span> About SVS Food</h1>
+                    <p class="wla_banner_para">SVS Food offers you Pure Veg Food of your choice, cooked live in front of you, using exotic spices and ingredients on a specially made huge unit. With delightful cuisine and excellent quality of the food
+                      being served, It will make your experience unforgettable.</p>
+                    <a href="/order/svs-food-rewa-road-satna" class="wla_connect-btn" style="background:#000 !important">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="wla_featured_category_section center_section-heading">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2 class="wla_section_heading"><span>Featured Categories</span> </h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 col-sm-6 col-12 wla-featured_category_outer">
+                    <div class="wla_feature_category_home"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93756">
+                        <div class="wla_feature_category_img">
+                          <img src="https://static.uengage.in/uploads/6442/image-934983-1635417208.jpeg" alt="BURGERS">
+                        </div>
+                      </a>
+                      <div class="feature-inner"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93756">
+                        </a>
+                        <ul><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93756">
+                            <li>
+                              <span>BURGERS</span>
+                            </li>
+                          </a>
+                          <li><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93756"></a><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93756">
+                              <i class="las la-angle-right"></i>
+                            </a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-12 wla-featured_category_outer">
+                    <div class="wla_feature_category_home"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93757">
+                        <div class="wla_feature_category_img">
+                          <img src="https://static.uengage.in/uploads/6442/image-939593-1626861775.jpeg" alt="NAAN">
+                        </div>
+                      </a>
+                      <div class="feature-inner"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93757">
+                        </a>
+                        <ul><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93757">
+                            <li>
+                              <span>NAAN</span>
+                            </li>
+                          </a>
+                          <li><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93757"></a><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93757">
+                              <i class="las la-angle-right"></i>
+                            </a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-12 wla-featured_category_outer">
+                    <div class="wla_feature_category_home"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93758">
+                        <div class="wla_feature_category_img">
+                          <img src="https://static.uengage.in/uploads/6442/image-532354-1626861775.jpeg" alt="PIZZA">
+                        </div>
+                      </a>
+                      <div class="feature-inner"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93758">
+                        </a>
+                        <ul><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93758">
+                            <li>
+                              <span>PIZZA</span>
+                            </li>
+                          </a>
+                          <li><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93758"></a><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93758">
+                              <i class="las la-angle-right"></i>
+                            </a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-12 wla-featured_category_outer">
+                    <div class="wla_feature_category_home"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93759">
+                        <div class="wla_feature_category_img">
+                          <img src="https://static.uengage.in/uploads/6442/image-226872-1626861775.jpeg" alt="FRIES">
+                        </div>
+                      </a>
+                      <div class="feature-inner"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93759">
+                        </a>
+                        <ul><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93759">
+                            <li>
+                              <span>FRIES</span>
+                            </li>
+                          </a>
+                          <li><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93759"></a><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93759">
+                              <i class="las la-angle-right"></i>
+                            </a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-12 wla-featured_category_outer">
+                    <div class="wla_feature_category_home"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93760">
+                        <div class="wla_feature_category_img">
+                          <img src="https://static.uengage.in/uploads/6442/image-559675-1626861774.jpeg" alt="GARLIC BREAD">
+                        </div>
+                      </a>
+                      <div class="feature-inner"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93760">
+                        </a>
+                        <ul><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93760">
+                            <li>
+                              <span>GARLIC BREAD</span>
+                            </li>
+                          </a>
+                          <li><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93760"></a><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93760">
+                              <i class="las la-angle-right"></i>
+                            </a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-12 wla-featured_category_outer">
+                    <div class="wla_feature_category_home"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93761">
+                        <div class="wla_feature_category_img">
+                          <img src="https://static.uengage.in/uploads/6442/image-998441-1626861775.jpeg" alt="BEVERAGES">
+                        </div>
+                      </a>
+                      <div class="feature-inner"><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93761">
+                        </a>
+                        <ul><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93761">
+                            <li>
+                              <span>BEVERAGES</span>
+                            </li>
+                          </a>
+                          <li><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93761"></a><a href="https://svsfood.com/order/svs-food-rewa-road-satna?id=93761">
+                              <i class="las la-angle-right"></i>
+                            </a></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="wla-featured_items_section center_section-heading">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3 class="wla_section_heading"><span>Featured Items</span></h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-3 col-md-4 col-6 wla_featured_items_outers">
+                    <div class="wla_featured_items">
+                      <div class="wla_featured_items_img"><a href="https://svsfood.com/order/svs-food-rewa-road-satna"><img src="https://static.uengage.in/uploads/6442/image-819226-1635417208.jpeg" alt="Paneer Burger"></a>
+                      </div>
+                      <div class="wla_popular_dish_info">
+                        <h4 class="wla_headline"><a href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Paneer Burger">Paneer Burger</a>
+                        </h4>
+                        <span class="wla_item_price">Rs.90</span><a class="brd_rd" href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Order Now">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-6 wla_featured_items_outers">
+                    <div class="wla_featured_items">
+                      <div class="wla_featured_items_img"><a href="https://svsfood.com/order/svs-food-rewa-road-satna"><img src="https://static.uengage.in/uploads/6442/image-311194-1635417208.jpeg" alt="All In One Pizza"></a>
+                      </div>
+                      <div class="wla_popular_dish_info">
+                        <h4 class="wla_headline"><a href="https://svsfood.com/order/svs-food-rewa-road-satna" title="All In One Pizza">All In One Pizza</a>
+                        </h4>
+                        <span class="wla_item_price">Rs.190</span><a class="brd_rd" href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Order Now">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-6 wla_featured_items_outers">
+                    <div class="wla_featured_items">
+                      <div class="wla_featured_items_img"><a href="https://svsfood.com/order/svs-food-rewa-road-satna"><img src="https://static.uengage.in/uploads/6442/image-8532-1627142404.jpg" alt="Veggie Stix"></a>
+                      </div>
+                      <div class="wla_popular_dish_info">
+                        <h4 class="wla_headline"><a href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Veggie Stix">Veggie Stix</a>
+                        </h4>
+                        <span class="wla_item_price">Rs.90</span><a class="brd_rd" href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Order Now">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-md-4 col-6 wla_featured_items_outers">
+                    <div class="wla_featured_items">
+                      <div class="wla_featured_items_img"><a href="https://svsfood.com/order/svs-food-rewa-road-satna"><img src="https://static.uengage.in/uploads/6442/image-2898-1627144213.jpg" alt="Bubblegum Shake"></a>
+                      </div>
+                      <div class="wla_popular_dish_info">
+                        <h4 class="wla_headline"><a href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Bubblegum Shake">Bubblegum Shake</a>
+                        </h4>
+                        <span class="wla_item_price">Rs.100</span><a class="brd_rd" href="https://svsfood.com/order/svs-food-rewa-road-satna" title="Order Now">Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="wla-featured_items_section center_section-heading" style="padding:0px">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="wla_section_heading"><span>Start Ordering Now</span></h3>
+                </div>
+              </div>
+              <style>
+                .outlet-page-wrapper {
+                  position: relative;
+                  padding-top: 1rem;
+                  padding-bottom: 1em;
+                  min-height: 50vh;
+                }
+
+                .outlet-page-wrapper:after {
+                  content: '';
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: -2;
+                  width: 100%;
+                  height: 100%;
+                  background-size: cover;
+                  background: url(https://static.uengage.in/uploads/6442/bg-6442-1629272432.jpeg) no-repeat center;
+                  background-size: cover;
+                }
+
+                .outlet-page-wrapper:before {
+                  content: '';
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: -1;
+                  width: 100%;
+                  height: 100%;
+                }
+
+                select {
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  -ms-appearance: none;
+                  appearance: none;
+                  outline: 0;
+                  box-shadow: none;
+                  border: 0 !important;
+                  background: #ececec;
+                  background-image: none;
+                }
+
+                /* Remove IE arrow */
+                select::-ms-expand {
+                  display: none;
+                }
+
+                /* Custom Select */
+                .select {
+                  position: relative;
+                  display: flex;
+                  width: 30em;
+                  margin: auto;
+                  height: 3em;
+                  line-height: 3;
+                  background: #ececec;
+                  overflow: hidden;
+                  border-radius: .25em;
+                }
+
+                select {
+                  flex: 1;
+                  padding: 0 .5em;
+                  color: #000;
+                  cursor: pointer;
+                }
+
+                /* Arrow */
+                .select::after {
+                  content: '\25BC';
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  padding: 0 1em;
+                  background: var(--main-bg-color);
+                  cursor: pointer;
+                  pointer-events: none;
+                  -webkit-transition: .25s all ease;
+                  -o-transition: .25s all ease;
+                  transition: .25s all ease;
+                }
+
+                /* Transition */
+                .select:hover::after {
+                  color: #f39c12;
+                }
+
+                .outletSelector {
+                  width: 40em;
+                  margin: auto;
+                }
+
+                @media screen and (max-width: 620px) {
+                  .select {
+                    width: 100%
+                  }
+
+                  .outletSelector {
+                    width: 100%
+                  }
+                }
+              </style>
+
+              <section class="outlet-page-wrapper" id="store-locator">
+                <div id="content" class="site-content store-locator-page" tabindex="-1">
+                  <div id="primary" class="content-area">
+                    <main id="main" class="site-main m-0">
+                      <div id="post-537" class="post-537 m-0 page type-page status-publish hentry">
+                        <div class="container">
+                          <div class="row" id="feedDisplay">
+
+                          </div>
+
+
+                          <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 offset-md-2 offset-xl-3 offset-lg-3 offset-sm-1 outlet-wrapper mt-1" style="background: var(--main-bg-color);border: 0;opacity: 1;"
+                              onclick="openOrderPage('svs-food-rewa-road-satna')">
+                              <div class="row">
+                                <div class="col-8" style="text-align: left;color: #fff !important;">
+                                  <span style="font-size: 16px;color: #fff;">
+                                    Rewa Road , Satna </span>
+                                  <div style="text-align: left;font-size: 1.25em;    color: #c3c3c3;">
+
+                                    <i class="la la-biking"></i>
+                                    <i class="la la-people-carry"></i>
+                                    <i class="la la-utensils"></i>
+                                    <i class="la la-car-side"></i>
+                                  </div>
+                                </div>
+                                <div class="col-4" style="vertical-align: middle;display: block;">
+                                  <button id="orderNowBTN" class="btn btn-primary" style="
+                                             float: right;
+                                             /* background: #fff; */
+                                             color: #fff;
+                                             padding: 0em !IMPORTANT;
+                                             width: auto;
+                                             border: 1px solid var(--main-bg-color);
+                                             display: block;
+                                             position: absolute;
+                                             right: 1em;
+                                             bottom: 0.5em;
+                                             ">Order Now
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- #post-## -->
+                      </div>
+                    </main>
+                    <!-- #main -->
+                  </div>
+                  <!-- #primary -->
+                </div>
+
+              </section>
+            </section>
+          </main>
+        </div>
+
+
+        <script>
+          var pId = '6442';
+          var city = JSON.parse('null');
+
+          function openOrderPage(storeSlug) {
+            // alert(val);
+            if (storeSlug != '') {
+              // var storeId=$('#store').val();
+              window.location.href = "order/" + storeSlug;
+            }
+
+          }
+
+          function openOrderBtn() {
+
+            var slug = document.getElementById('locality').value;
+
+            if (slug == 'undefined' || slug == '') {
+              alert("Kindly Select the Locality");
+            } else if (slug == 'coming-soon') {
+              alert("We Are Opening Soon!!");
+              return false;
+            } else {
+              document.getElementById('city').value = '';
+              document.getElementById('locality').value = '';
+              window.location.href = "order/" + slug;
+            }
+
+
+          }
+
+          function showLocality() {
+            var val = document.getElementById('city').value;
+            var locality = '<option value="">Select Your Favourite Outlet</option>';
+            if (city[val].length > 0) {
+              for (var i = 0; i < city[val].length; i++) {
+                if (city[val][i]['comingSoonFlag'] == 1) {
+                  locality += "<option disabled>" + city[val][i]['locality'] + "( We Are Coming Soon )</option>";
+                } else {
+                  locality += "<option value=" + city[val][i]['slug'] + ">" + city[val][i]['locality'] + "</option>";
+                }
+
+              }
+              document.getElementById('locality').innerHTML = '';
+              document.getElementById('locality').innerHTML = locality;
+            } else {
+              document.getElementById('locality').innerHTML = '';
+              document.getElementById('locality').innerHTML = locality;
+            }
+
+
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer id="colophon" class="site-footer footer-v3" style="background-color:var(--main-bg-color);color:#fff;">
+    <div class="container">
+      <!-- <div class="footer-row row vertical-align">
+         <div class="footer-logo">
+            <a href="index.html" class="custom-logo-link" rel="home"></a>
+           </div> -->
+
+
+    </div>
+    <div class="subfooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12" style="margin-bottom:2em;margin-top:1em">
+            <div style="font-size: 1.1em;font-weight: 700;"><i class="las la-lightbulb"></i> Useful Links</div>
+            <ul class="list-unstyled m-0 footer-links">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://svsfood.com/privacy-policy">
+                  Privacy Policy</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="https://svsfood.com/terms-and-conditions">
+                  Terms &amp; Conditions</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="https://svsfood.com/refund-policy">
+                  Refund Policy</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+
+
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 paymentsBlock" style="margin-bottom:2em">
+            <div style="font-size: 1.1em;font-weight: 700;"><i class="las la-receipt"></i> Payment Methods</div>
+            <div class="p-method">
+              <a href="#"><img src="https://svsfood.com/assets/wla_new/img/visa.png" width="45" height="27" alt="Visa"></a>
+              <a href="#"><img src="https://svsfood.com/assets/wla_new/img/google-pay.png" width="45" height="27" alt="Google Pay"></a>
+              <a href="#"><img src="https://svsfood.com/assets/wla_new/img/paytm.png" width="45" height="27" alt="Paytm"></a>
+              <a href="#"><img src="https://svsfood.com/assets/wla_new/img/master-card.png" width="45" height="27" alt="Master Card"></a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 linkBlock">
+            <div style="font-size: 1.1em;font-weight: 700;"><i class="las la-at"></i> Connect With Us</div>
+            <div class="social-links">
+              <a href="https://www.facebook.com/svsfoodsparas/" alt="SVS Food on facebook"><i class="lab la-facebook-f"></i></a>
+              <a href="https://www.instagram.com/svs_foods/" alt="SVS Food on instagram"><i class="lab la-instagram"></i></a>
+
+
+
+
+
+            </div>
+
+            <div class="contact-info">
+              <i class="las la-map-pin"></i> Near Circuit House Chowk, Rewa Road, Satna, Madhya Pradesh 485001
+              <a href="mailto:parvjain907@gmail.com"><i class="las la-envelope"></i> parvjain907@gmail.com </a>
+              <a href="tel:+91 7869717041"><i class="las la-phone"></i> +91 7869717041</a>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+            <p class="m-0 text-xl-right text-sm-right" id="foot">Made with Love in India by <a style="color:#fff;" href="https://www.uengage.in/">Uengage</a></p>
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+            <p class="m-0"><i class="fa fa-copyright"></i> Copyright. All Rights Reserved
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <script src="https://svsfood.com/assets/wla_new/js/jquery.min.js"></script>
+    <script src="https://svsfood.com/assets/wla_new/js/bootstrap.min.js"></script>
+
+
+    <script src="/assets/wla_new/js/slick.js"></script>
+    <script src="/assets/wla_new/js/slick_dots.js"></script>
+    <script src="/assets/wla_new/js/wla_home_20210810.js"></script>
+    <script type="text/javascript" src="https://svsfood.com/assets/wla_new/js/scripts.min.js"></script>
+    <script src="https://svsfood.com/assets/wla_new/js/wizard.js"></script>
+
+    <!-- Loading Dynamic javascript files  -->
+
+
+    <script type="text/javascript">
+      var businessId = '';
+      var pId = '6442';
+      var slug = '';
+      var orderType = '';
+      var parentId = '6442';
+      var truecaller_key = "";
+      var paytm_mId = '';
+      var cart;
+      var businessName = 'SVS Food';
+      var logo = 'https://www.uengage.in/images/addo/logos/logo-6442-1629272422.jpeg';
+      var item = {};
+      var templates;
+      var itemTemplates;
+      var menu;
+      var menuFull;
+      var orderId = 0;
+      var menuSearch = [];
+      var address;
+      var templateList;
+      var realLat = "";
+      var realLng = "";
+      var addressRows = "";
+      var geocoder;
+      var addressName = "";
+      var deliveryAddresId = "";
+      var appliedPromoCode;
+      var autocomplete;
+      var carNumberCart = "";
+      var deliveryActive = 1;
+      var dineActive = 1;
+      var incarActive = 1;
+      var pickupActive = 1;
+    </script>
+    <script src="https://svsfood.com/assets/wla_new/js/loginByPhone.js"></script>
+
+    <script src="https://svsfood.com/assets/wla_new/js/wla_20211113.js?v=1"></script>
+    <!-- <script src= -->
+    <!-- End Dynamic JS file Call -->
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
