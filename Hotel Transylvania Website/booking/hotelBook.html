@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://kit.fontawesome.com/938116c78d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="booking.css">
+</head>
+
+<body style='background-image: url("https://modworkshop.net/mydownloads/previews/preview_28826_1471725210_4a6af48d0f347813e49dd1af4e385d57.jpg");'>
+  <div class="registration">
+    <h1 class="title">Booking details</h1>
+    <form class="hotelSuite" action="index.html" method="post">
+      <div class="input-box">
+        <span class="booking-details">Stay duration(Check-In, Check-Out)</span>
+        <input type="date" name="date" class="date-input">
+        <!-- <span> - </span> -->
+        <input type="date" name="date" class="date-input">
+      </div>
+      <div class="input-box">
+        <span class="booking-details">Total persons</span>
+        <select class="persons" name="Total">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="input-box">
+        <span class="booking-details">Total Rooms</span>
+        <input type="number" name="rooms" value="">
+      </div>
+      <div class="input-box">
+        <span class="booking-details">Mail Addresses</span>
+        <input type="email" name="mail" placeholder="@gmail.com">
+      </div>
+      <div class="input-box">
+        <div class="booking-details break">
+          Room preference
+          <a class="arrow" data-toggle="collapse" data-target="#collapsediv2" role="button" aria-expanded="false" aria-controls="collapsediv2">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+        <div id="collapsediv2" class="collapse div2">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Forest facing
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Cemetry facing
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="booking-details break">
+          Extra Services
+          <a class="arrow" data-toggle="collapse" data-target="#collapsediv1" role="button" aria-expanded="false" aria-controls="collapsediv1">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+        <div id="collapsediv1" class="collapse div1">
+          <label class="container">Breakfast(200rs)
+            <input type="checkbox" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Laundry(20rs/pair of cloth)
+            <input type="checkbox" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Spa(2000rs/day)
+            <input type="checkbox" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">None of the above
+            <input type="checkbox" name="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+      <div class="input-box submit">
+        <button type="button" class="btn" name="button">Submit</button>
+      </div>
+
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
